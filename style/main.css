@@ -13,7 +13,7 @@ body {
   margin: 80px 0; }
 
 p.learn {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 span.tile-text {
@@ -25,12 +25,12 @@ span.tile-text {
 input {
   display: inline-block;
   background: #8f7a66;
-  border-radius: 3px;
-  padding: 0 20px;
+  border-radius: 5px;
+  padding: 0 10px;
   text-decoration: none;
   color: #f9f6f2;
-  height: 40px;
-  line-height: 42px;
+  height: 50px;
+  line-height: 32px;
   cursor: pointer;
   font: inherit;
   border: none;
@@ -46,7 +46,7 @@ input {
     background: #fcfbf9;
     font-weight: normal;
     color: #776e65;
-    padding: 0 15px; }
+    padding: 2 35px; }
     input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
       color: #9d948c; }
     input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder {
@@ -68,11 +68,11 @@ h1.title {
 
 @-webkit-keyframes move-up {
   0% {
-    top: 25px;
+    top: 85px;
     opacity: 1; }
 
   100% {
-    top: -50px;
+    top: -70px;
     opacity: 0; } }
 @-moz-keyframes move-up {
   0% {
@@ -80,7 +80,7 @@ h1.title {
     opacity: 1; }
 
   100% {
-    top: -50px;
+    top: -70px;
     opacity: 0; } }
 @keyframes move-up {
   0% {
